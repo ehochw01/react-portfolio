@@ -1,11 +1,24 @@
 import React from 'react';
-// First we import our Hello component from our components folder.
-import Hello from './components/Hello';
+// import React, { useState } from "react";
+import Header from "./components/Header";
 
-// React apps typically have a single App component at the very top that can reference other React components.
-// This component, `App`, is our main component that is importing `Hello` and rendering it in the return method.
+
 function App() {
-  return <Hello />;
+  // const [pages] = useState([
+  //   {
+  //     name: "about me"
+  //   },
+  //   { name: "portfolio" },
+  //   { name: "contact" },
+  //   {
+  //     name: "resume"
+  //   }
+  // ]);
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 }
 
 export default App;
