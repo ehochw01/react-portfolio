@@ -7,18 +7,7 @@ function Resume() {
         Download my <a href="https://drive.google.com/uc?export=download&id=1JkT8sDt3ph3pk18jNXMd5l2GjrT_QGjj">resume</a>
         </p>
       <div className="my-5">
-        <h3>Front-end Proficiencies</h3>
-        <ul className="skills">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>jQuery</li>
-          <li>React</li>
-          <li>Bootstrap</li>
-          <li>Handlebars</li>
-          <li>Bulma</li>
-        </ul>
-        <h3>Back-end Proficiencies</h3>
+      <h3>Back-end Proficiencies</h3>
         <ul className="skills">
           <li>Node</li>
           <li>Express</li>
@@ -32,7 +21,18 @@ function Resume() {
           <li>C</li>
           <li>C++</li>
         </ul>
-        <h3>Miscellaneous</h3>
+      <h3>Front-end Proficiencies</h3>
+        <ul className="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>jQuery</li>
+          <li>React</li>
+          <li>Bootstrap</li>
+          <li>Handlebars</li>
+          <li>Bulma</li>
+        </ul>
+      <h3>Miscellaneous</h3>
         <ul className="skills">
           <li>InterSystems IRIS</li>
           <li>Git</li>

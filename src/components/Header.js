@@ -1,5 +1,5 @@
 import React from 'react';
-import coverImage from '../assets/cover/cover-image.jpg';
+import coverImage from '../assets/cover/moon-machine.jpg';
 
 function Header({ children }) {
 

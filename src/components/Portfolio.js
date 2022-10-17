@@ -44,7 +44,7 @@ function Portfolio() {
 
   return (
     <div className="center">
-      <i>Please note that the heroku apps may take several seconds to load!</i>
+      <i>Please note that the deployed heroku apps may take several seconds to load!</i>
       <div className="flex-row">
         {projects.map((project, idx) => (
           <Project
