@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.361a01f3.css",
+    "main.js": "/react-portfolio/static/js/main.9f79d8b9.js",
+    "static/media/cover-image.jpg": "/react-portfolio/static/media/cover-image.3f4b8a47f17655a4ac17.jpg",
+    "static/media/personal-photo.jpg": "/react-portfolio/static/media/personal-photo.edbef783757f19b434e5.jpg",
+    "static/media/melloFiles.png": "/react-portfolio/static/media/melloFiles.087b105d84ee5c131452.png",
+    "static/media/book-collection.png": "/react-portfolio/static/media/book-collection.5c9e1e48598566105458.png",
+    "static/media/tech-news.png": "/react-portfolio/static/media/tech-news.ea7118ff36b0bbdd587d.png",
+    "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.16d6d9cdc04a40c2dff6.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.361a01f3.css.map": "/react-portfolio/static/css/main.361a01f3.css.map",
+    "main.9f79d8b9.js.map": "/react-portfolio/static/js/main.9f79d8b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.361a01f3.css",
+    "static/js/main.9f79d8b9.js"
+  ]
+}
