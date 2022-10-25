@@ -23,13 +23,13 @@ function Project({ project }) {
         className="project-bg"
       />
       <div className="project-text">
-        <h3>
+        <h3 id="project-title">
           <a href={link} target="_blank" rel="noopener noreferrer">{projectName}</a>{' '}
           <a href={repo} target="_blank" rel="noopener noreferrer">
             <i className="fab fa-github"></i>
           </a>
         </h3>
-        <p>{description}</p>
+        <p id="project-description">{description}</p>
         <p>Tech Used: {tech}</p>
       </div>
     </div>

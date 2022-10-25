@@ -13,6 +13,13 @@ function Portfolio() {
       repo: "https://github.com/ehochw01/MelloFiles"
     }, 
     {
+      name: 'react-portfolio',
+      description: 'The site you are currently on! Click the title link to see the Github repo, and the Github link to see my Github profile.',
+      tech: 'React, CSS',
+      link: "https://github.com/ehochw01/react-portfolio",
+      repo: "https://github.com/ehochw01/"
+    },
+    {
       name: 'book-collection',
       description: 'A site where users can search for books and add them to their collection.',
       tech: 'MongoDB, Apollo GraphQL, React',
@@ -45,7 +52,7 @@ function Portfolio() {
   return (
     <div className="center">
       <i>Please note that the deployed heroku apps may take several seconds to load!</i>
-      <div className="flex-row">
+      <div className="flex-row flex-center" id="projects">
         {projects.map((project, idx) => (
           <Project
             project={project}

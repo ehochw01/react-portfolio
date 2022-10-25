@@ -17,7 +17,7 @@ function Nav(props) {
         <ul className="flex-row">
           {pages.map((Page) => (
             <li
-              className={`mx-5 nav-links ${
+              className={`nav-links ${
                 currentPage.name === Page.name && 'navActive'
                 }`}
               key={Page.name}

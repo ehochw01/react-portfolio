@@ -1,7 +1,7 @@
 main {
   margin: 0 auto;
   max-width: 90%;
-  padding: 50px 30px;
+  padding: 30px 10px;
 }
 :root {
   --primary: #8c54ff;
@@ -16,6 +16,8 @@ main {
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
   --header-fonts: 'Aladin', cursive;
+  --sans-serif: 'Open Sans', sans-serif;
+  --serif: Georgia, 'Times New Roman', Times, serif;
 }
 
 * {
@@ -36,7 +38,7 @@ body {
   letter-spacing: 0.1em;
   background: var(--darker);
   color: var(--light);
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--sans-serif);
 }
 
 h1,
@@ -52,19 +54,20 @@ h6 {
 }
 
 h1 {
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: var(--serif);
   font-size: 4rem;
   margin: 50px 20px;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 h2 {
+  font-family: var(--serif);
   font-size: 2.5rem;
   text-align: center;
 }
 
 h3 {
-  font-family: var(--header-fonts);
+  font-family: var(--serif);
   font-size: 1.75rem;
 }
 
@@ -89,7 +92,7 @@ p {
 a {
   color: var(--light);
   text-decoration: none;
-  opacity: .5;
+  opacity: .7;
 }
 
 a:hover {
@@ -205,6 +208,10 @@ nav li {
   margin: 0 40px;
 }
 
+/* nav ul {
+  padding-inline-start: 10px;
+} */
+
 .nav-links:hover {
   text-shadow: 1px 1px orange;
 }
@@ -251,6 +258,10 @@ textarea {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+}
+
+#projects {
+  justify-content: center;
 }
 
 .space-between {
@@ -330,6 +341,10 @@ textarea {
   height: 100%;
 }
 
+#project-title {
+  font-family: var(--header-fonts);
+}
+
 .project-text {
     color: var(--secondary);
     position: absolute;
@@ -380,25 +395,85 @@ textarea {
 
 .photo {
   width: 20%;
+  min-width: 220px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 20%;
 }
-@media only screen and (max-width: 1320px) {
+
+.proficiencies-list {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 40px;
+  margin-left: 40px;
+  text-align: left;
+}
+
+#lists {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1340px) {
   nav {
     position: static;
     display: block;
     z-index: 100;
-    margin: 0 10px;
+    margin: 30px 10px;
     font-size: 2rem;
   }
   header h1 {
     display: block;
     height: 30px;
   }
+  nav li {
+    cursor: pointer;
+    text-shadow: 2px 2px 10px rgba(0,0,0, 0.5);
+    margin: 0 25px;
+  }
 }
-@media only screen and (max-width: 900px) {
+
+@media only screen and (max-width: 1260px) {
+  .proficiencies-list {
+    display: block;
+  }
+
+  #lists {
+    text-align: auto;
+  }
+}
+
+@media only screen and (max-width: 1167px) {
+  nav {
+    position: static;
+    display: block;
+    z-index: 100;
+    margin: 0 10px;
+    font-size: 1.7rem;
+  }
+  header h1 {
+    display: block;
+    margin: 20px 10px;
+    height: 15px;
+    width: 100%;
+    text-align: center;
+    font-size: 3.5rem;
+  }
+  nav li {
+    margin: 0 30px;
+  }
+  .space-between {
+    justify-content: center;
+  }
+  nav {
+    margin: 0 10px;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
   nav {
     position: static;
     display: block;
@@ -408,10 +483,39 @@ textarea {
   }
   header h1 {
     display: block;
-    margin: 5px 10px;
+    margin: 20px 10px;
     height: 15px;
     width: 100%;
     text-align: center;
-    font-size: 2.3rem;
+    font-size: 2.5rem;
+  }
+
+  header {
+    height: 150px;
+  }
+  .project-text h3 {
+    margin-top: 0px;
+    font-size: 2rem;
+  }
+  .project-text p {
+    font-size: 1.0rem;
+    line-height: 1.5rem;
+    margin: 10px;
+    text-align: left;
+  }
+  main {
+    padding: 30px 0px;
+  }
+  .project {
+    height: 300px;
+    margin: 10px;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 608px) {
+  nav ul{
+    padding-inline-start: 0px;
+    justify-content: center;
   }
 }
