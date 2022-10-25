@@ -18,10 +18,10 @@ To view my portfolio, please click the link above.
 ```
 
 ## Technologies
-`
+```
 - React.js
 - CSS
-`
+```
 
 ## Sceenshots
 About Page:
