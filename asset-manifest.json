@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.ab0e6288.css",
-    "main.js": "/react-portfolio/static/js/main.095747a3.js",
+    "main.css": "/react-portfolio/static/css/main.8ff5c9fb.css",
+    "main.js": "/react-portfolio/static/js/main.fa89f003.js",
     "static/media/moon-machine.jpg": "/react-portfolio/static/media/moon-machine.5ec91aa821065fa1a9b8.jpg",
     "static/media/personal-photo.jpg": "/react-portfolio/static/media/personal-photo.edbef783757f19b434e5.jpg",
     "static/media/melloFiles.png": "/react-portfolio/static/media/melloFiles.087b105d84ee5c131452.png",
@@ -10,11 +10,11 @@
     "static/media/tech-news.png": "/react-portfolio/static/media/tech-news.ea7118ff36b0bbdd587d.png",
     "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.16d6d9cdc04a40c2dff6.png",
     "index.html": "/react-portfolio/index.html",
-    "main.ab0e6288.css.map": "/react-portfolio/static/css/main.ab0e6288.css.map",
-    "main.095747a3.js.map": "/react-portfolio/static/js/main.095747a3.js.map"
+    "main.8ff5c9fb.css.map": "/react-portfolio/static/css/main.8ff5c9fb.css.map",
+    "main.fa89f003.js.map": "/react-portfolio/static/js/main.fa89f003.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab0e6288.css",
-    "static/js/main.095747a3.js"
+    "static/css/main.8ff5c9fb.css",
+    "static/js/main.fa89f003.js"
   ]
 }
