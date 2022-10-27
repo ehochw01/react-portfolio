@@ -39,17 +39,17 @@ function Resume() {
         <div className="proficiencies-list">
           <h3>Miscellaneous</h3>
           <ul className="skills">
+            <li>Git</li>
+            <li>Linux</li>
+            <li>Windows</li>
+            <li>VSCode</li>
+            <li>AWS</li>
             <li>InterSystems IRIS</li>
             <li>Distributed Systems</li>
             <li>High Availability</li>
             <li>Disaster Recovery</li>
             <li>System Performance Analysis</li>
             <li>Wireshark</li>
-            <li>Git</li>
-            <li>Linux</li>
-            <li>Windows</li>
-            <li>VSCode</li>
-            <li>AWS</li>
             <li>Logic Pro X</li>
             <li>Microsoft Office</li>
           </ul>
