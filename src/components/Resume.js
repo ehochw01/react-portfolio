@@ -23,10 +23,10 @@ function Resume() {
         <div className="proficiencies-list">
           <h3>Back-end Proficiencies</h3>
           <ul className="skills">
-            <li>Node</li>
+            <li>Node.js</li>
             <li>Python</li>
             <li>Java</li>
-            <li>Express</li>
+            <li>Express.js</li>
             <li>MySQL, Sequelize</li>
             <li>MongoDB, Mongoose</li>
             <li>REST</li>

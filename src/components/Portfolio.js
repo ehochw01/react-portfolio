@@ -20,13 +20,6 @@ function Portfolio() {
       repo: "https://github.com/ehochw01/"
     },
     {
-      name: 'book-collection',
-      description: 'A site where users can search for books and add them to their collection.',
-      tech: 'MongoDB, Apollo GraphQL, React',
-      link: "https://still-tundra-52545.herokuapp.com/",
-      repo: "https://github.com/ehochw01/Book-Collection"
-    },   
-    {
       name: 'tech-news',
       description: 'A site where users can post, upvote, and comment on links to news articles. Refactored from a Node.js app using a Python backend.',
       tech: 'Python, Flask, SQLAlchemy',
@@ -40,6 +33,13 @@ function Portfolio() {
       link: "https://java-tech-newz.herokuapp.com/",
       repo: "https://github.com/ehochw01/tech-news-java-api"
     },
+    {
+      name: 'book-collection',
+      description: 'A site where users can search for books and add them to their collection.',
+      tech: 'Node.js, MongoDB, Apollo GraphQL, React',
+      link: "https://still-tundra-52545.herokuapp.com/",
+      repo: "https://github.com/ehochw01/Book-Collection"
+    },   
     {
       name: 'weather-dashboard',
       description: 'A site where users can search the weather forecast for a given city.',
