@@ -4,7 +4,7 @@ function Resume() {
   return (
     <section>
         <p className="center">
-        Download my <a href="https://drive.google.com/uc?export=download&id=1w7--XaqeiNY6rUbcU5OuPKs3Z6TBzlGS">resume</a>
+        Download my <a href="https://drive.google.com/uc?export=download&id=18PCx9zxSxOqAbjGZBmMb_NhjITXccn5D">resume</a>
         </p>
       <div className="my-5" id="lists">
         <div className="proficiencies-list">
@@ -40,7 +40,15 @@ function Resume() {
           <h3>Miscellaneous</h3>
           <ul className="skills">
             <li>InterSystems IRIS</li>
+            <li>Distributed Systems</li>
+            <li>High Availability</li>
+            <li>Disaster Recovery</li>
+            <li>System Performance Analysis</li>
+            <li>Wireshark</li>
             <li>Git</li>
+            <li>Linux</li>
+            <li>Windows</li>
+            <li>VSCode</li>
             <li>AWS</li>
             <li>Logic Pro X</li>
             <li>Microsoft Office</li>

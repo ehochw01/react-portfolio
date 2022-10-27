@@ -1,7 +1,7 @@
 main {
   margin: 0 auto;
   max-width: 90%;
-  padding: 30px 10px;
+  padding: 30px 0px;
 }
 :root {
   --primary: #8c54ff;
@@ -414,6 +414,13 @@ textarea {
   text-align: center;
 }
 
+@media only screen and (max-width: 1400px) {
+  .proficiencies-list {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
 @media only screen and (max-width: 1340px) {
   nav {
     position: static;
@@ -502,9 +509,6 @@ textarea {
     line-height: 1.5rem;
     margin: 10px;
     text-align: left;
-  }
-  main {
-    padding: 30px 0px;
   }
   .project {
     height: 300px;
