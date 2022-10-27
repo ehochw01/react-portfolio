@@ -24,13 +24,13 @@ function Resume() {
           <h3>Back-end Proficiencies</h3>
           <ul className="skills">
             <li>Node</li>
+            <li>Python</li>
+            <li>Java</li>
             <li>Express</li>
             <li>MySQL, Sequelize</li>
             <li>MongoDB, Mongoose</li>
             <li>REST</li>
             <li>GraphQL</li>
-            <li>Python</li>
-            <li>Java</li>
             <li>ObjectScript</li>
             <li>C</li>
             <li>C++</li>
