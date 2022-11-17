@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.8ff5c9fb.css",
-    "main.js": "/react-portfolio/static/js/main.f189733b.js",
+    "main.js": "/react-portfolio/static/js/main.64aeacf2.js",
     "static/media/moon-machine.jpg": "/react-portfolio/static/media/moon-machine.5ec91aa821065fa1a9b8.jpg",
     "static/media/personal-photo.jpg": "/react-portfolio/static/media/personal-photo.edbef783757f19b434e5.jpg",
     "static/media/melloFiles.png": "/react-portfolio/static/media/melloFiles.087b105d84ee5c131452.png",
@@ -11,10 +11,10 @@
     "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.16d6d9cdc04a40c2dff6.png",
     "index.html": "/react-portfolio/index.html",
     "main.8ff5c9fb.css.map": "/react-portfolio/static/css/main.8ff5c9fb.css.map",
-    "main.f189733b.js.map": "/react-portfolio/static/js/main.f189733b.js.map"
+    "main.64aeacf2.js.map": "/react-portfolio/static/js/main.64aeacf2.js.map"
   },
   "entrypoints": [
     "static/css/main.8ff5c9fb.css",
-    "static/js/main.f189733b.js"
+    "static/js/main.64aeacf2.js"
   ]
 }
