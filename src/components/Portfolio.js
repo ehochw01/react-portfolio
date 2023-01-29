@@ -13,18 +13,18 @@ function Portfolio() {
       repo: "https://github.com/ehochw01/MelloFiles"
     }, 
     {
+      name: 'deep-thoughts',
+      description: 'A site where users post thoughts and images',
+      tech: 'React, AWS, Node.js, DynamoDB, S3, EC2',
+      link: "http://52.15.38.85/",
+      repo: "https://github.com/ehochw01/aws-thought"
+    },
+    {
       name: 'react-portfolio',
       description: 'The site you are currently on! Click the title link to see the Github repo, and the Github link to see my Github profile.',
       tech: 'React, CSS',
       link: "https://github.com/ehochw01/react-portfolio",
       repo: "https://github.com/ehochw01/"
-    },
-    {
-      name: 'tech-news',
-      description: 'A site where users can post, upvote, and comment on links to news articles. Refactored from a Node.js app using a Python backend.',
-      tech: 'Python, Flask, SQLAlchemy',
-      link: "https://python-tech-newz.herokuapp.com",
-      repo: "https://github.com/ehochw01/python-newsfeed "
     },
     {
       name: 'tech-news',
@@ -41,11 +41,11 @@ function Portfolio() {
       repo: "https://github.com/ehochw01/Book-Collection"
     },   
     {
-      name: 'weather-dashboard',
-      description: 'A site where users can search the weather forecast for a given city.',
-      tech: 'Javascript, HTML, Bootstrap, CSS',
-      link: "https://ehochw01.github.io/weather-dashboard/",
-      repo: "https://github.com/ehochw01/weather-dashboard"
+      name: 'tech-news',
+      description: 'A site where users can post, upvote, and comment on links to news articles. Refactored from a Node.js app using a Python backend.',
+      tech: 'Python, Flask, SQLAlchemy',
+      link: "https://python-tech-newz.herokuapp.com",
+      repo: "https://github.com/ehochw01/python-newsfeed "
     },
   ]);
 

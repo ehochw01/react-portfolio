@@ -4,7 +4,7 @@ function Resume() {
   return (
     <section>
         <p className="center">
-        Download my <a href="https://drive.google.com/uc?export=download&id=18PCx9zxSxOqAbjGZBmMb_NhjITXccn5D">resume</a>
+        Download my <a href="https://drive.google.com/uc?export=download&id=13o-CKIpQBG3z2XmbANI6n60EjqzDL5Tn">resume</a>
         </p>
       <div className="my-5" id="lists">
         <div className="proficiencies-list">
@@ -29,7 +29,7 @@ function Resume() {
             <li>Express.js</li>
             <li>MySQL, Sequelize</li>
             <li>MongoDB, Mongoose</li>
-            <li>REST</li>
+            <li>REST APIs</li>
             <li>GraphQL</li>
             <li>ObjectScript</li>
             <li>C</li>
@@ -39,19 +39,22 @@ function Resume() {
         <div className="proficiencies-list">
           <h3>Miscellaneous</h3>
           <ul className="skills">
+            <li>MVC Architecture</li>
+            <li>MERN Stack</li>
             <li>Git</li>
-            <li>Linux</li>
-            <li>Windows</li>
             <li>VSCode</li>
             <li>AWS</li>
+            <li>TCP</li>
+            <li>SSL/TLS</li>
             <li>InterSystems IRIS</li>
             <li>Distributed Systems</li>
             <li>High Availability</li>
             <li>Disaster Recovery</li>
             <li>System Performance Analysis</li>
             <li>Wireshark</li>
+            <li>Linux</li>
+            <li>Windows</li>
             <li>Logic Pro X</li>
-            <li>Microsoft Office</li>
           </ul>
         </div>
       </div>
